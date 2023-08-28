@@ -1,0 +1,23 @@
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+    margin-top: 20px;
+    position: absolute;
+    
+    width: 100%;
+
+
+    }
+    
+    .link-column {
+       
+
+
+   gap : 20px;
+    }
+    .footer-container {
+    
+    }
+  a{
+    margin-left: 20px;
+  }

@@ -1,0 +1,61 @@
+.btn{
+    height: "200px" !important;
+
+}
+.btn2 {
+    width: 300px !important;
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	padding: 0 2rem;
+	background: #ffc009;
+	border: none;
+	border-radius: 3.12rem;
+	font-family: "Work Sans", sans-serif;
+	color: #fff;
+	/* font-size: 1.2rem; */
+	outline: solid 0.2rem #ffc009;
+}
+.btn2:is(:hover, :focus) {
+	outline-offset: 0.19rem;
+}
+.bnt3{
+  z-index: 0;
+    width: 300px !important;
+    margin-top: 20px;
+    border:none;
+    background-color:blue;
+    font-size:15px;
+    padding:20px 40px;
+    text-transform:capitalize;
+    cursor:pointer;
+    transform:all 0.3s;
+    position:relative;
+    border-radius: 55px;
+    color: white;
+  }
+  .bnt3:before{
+    content:"";
+    position :absolute;
+    width:24px;
+    height:24px;
+    top:-5px;
+      left:-5px;
+    border-top:2px solid tomato;
+    border-left:2px solid tomato;
+    transition:all 0.25s;
+  }
+  .bnt3:hover:before ,.bnt3:hover:after{
+    width:104%;
+    height:110%;
+  }
+  .bnt3:after{
+    content:"";
+    position :absolute;
+    width:24px;
+    height:24px;
+    bottom:-5px;
+      right:-5px;
+    border-bottom:2px solid tomato;
+    border-right:2px solid tomato;
+    transition:all 0.30s;
+  }
